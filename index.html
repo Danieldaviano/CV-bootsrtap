@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Vitae</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-5 mb-5">
+  <div class="card cv-card shadow">
+    <div class="card-body">
+
+      <!-- HEADER -->
+      <div class="text-center">
+        <img src="daniel.JPEG" class="profile-img mb-3">
+        <h2 id="nama">DANIEL DAVIANO MARI DOLLU</h2>
+        <p id="status" class="text-muted">Pelajar SMK</p>
+        <button class="btn btn-primary btn-sm" onclick="ubahProfil()">Ubah Profil</button>
+      </div>
+
+      <hr>
+
+      <!-- DATA PRIBADI -->
+      <h5 class="section-title">Data Pribadi</h5>
+      <p><strong>Email:</strong> daniel88daviano@gmail.com</p>
+      <p><strong>No HP:</strong> 0895321372944</p>
+      <p><strong>Alamat:</strong> DKI Jakarta</p>
+
+      <!-- PENDIDIKAN -->
+      <h5 class="section-title mt-4">Pendidikan</h5>
+      <ul>
+        <li>SMKN 64 – Jurusan RPL</li>
+      </ul>
+
+      <!-- PENGALAMAN -->
+      <h5 class="section-title mt-4">Pengalaman</h5>
+      <ul id="pengalaman">
+        <li>Membuar website cv sederhana menggunakan html dan css</li>
+        <li>Membuar website cv sederhana menggunakan html,javascript,bootstrap dan css</li>
+      </ul>
+      <button class="btn btn-success btn-sm" onclick="tambahPengalaman()">Tambah Pengalaman</button>
+
+      <!-- KEAHLIAN -->
+      <h5 class="section-title mt-4">Keahlian</h5>
+      <span class="badge bg-primary">HTML</span>
+      <span class="badge bg-success">CSS</span>
+      <span class="badge bg-warning text-dark">Bootstrap</span>
+      <span class="badge bg-info text-dark">JavaScript</span>
+
+      <!-- TENTANG SAYA -->
+      <h5 class="section-title mt-4">Tentang Saya</h5>
+      <p>
+        Saya adalah siswa SMK yang tertarik pada bidang teknologi,
+        memiliki semangat belajar tinggi, dan mampu bekerja dalam tim.
+      </p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
